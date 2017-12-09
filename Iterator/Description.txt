@@ -1,0 +1,14 @@
+This programme prints all the prime numbers less than the value entered by the user.
+
+The purpose of this programme is to illustrate the basic syntax, working and implementation of vectors as well as iterators.
+
+Iterators are specifically designed data types that are used to iterate over every element of a composite data structure.
+They behave similar to the pointer to an individual element of the data structure.
+They are highly specific in nature and are sensitive to their declaration.
+
+E.g. a std::vector<int>::iterator may not be used to iterate over a std::vector<float>.
+
+Vectors are very useful composite data structures with a powerful library for performing various operations such as searching and sorting.
+
+This programme is intended to illustrate the working of an iterator. Hence, it may not have an optimal performance.
+The performance of this programme can be greatly optimized by combining the steps for checking, inserting and printing prime numbers.
