@@ -12,7 +12,7 @@ int main()
 {
 	int max;
 	std::cin >> max;
-	if(i < 2)
+	if(max < 2)
 		return(0); // Invalid input.
 	P.push_back(2);
 	for(int i = 3; i <= max; i+=2)
