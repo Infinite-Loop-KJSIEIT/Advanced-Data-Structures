@@ -1,0 +1,11 @@
+Among all the numbers entered by the user, this programme prints those which are prime numbers.
+
+The purpose of this programme is to illustrate the basic syntax, working and implementation of the std::find() function for searching through a composite data structure.
+
+The find() function returns an iterator to the first occurence of the queried value.
+If the value is absent, the returned iterator points to the end.
+
+find() is an optimized searching algorithm which is very useful to search through various data structures.
+
+The performance of this programme is optimized by reducing the overhead of populating the vector of prime numbers again and again.
+We populate the vector only up to the largest odd number and search through it to find any hits for prime numbers entered by the user.
