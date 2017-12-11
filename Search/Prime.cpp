@@ -38,7 +38,7 @@ int main()
 		
 		for(int i = 0; i < n; i++)
 		{
-			std::vector<int>::iterator j = find(P.begin(), P.end(), a[i]);
+			std::vector<int>::iterator j = std::find(P.begin(), P.end(), a[i]);
 			if(j != P.end())
 				std::cout << a[i]  << " ";
 		}
