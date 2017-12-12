@@ -1,0 +1,12 @@
+This programme implements a simple Caesar Cipher. To simplify the implementation, its scope has been limited only to the lower case words (without spaces).
+
+The purpose of this programme is to illustrate the basic syntax, working and implementation of the std::map composite data structure.
+
+std::map is an instrinsically sorted data structure comprising of two values: key value and mapped value.
+It is essentially a std::pair<key_type, mapped_value_type>.
+The key attribute of the std::map can be used exactly like the index of an array. Thus, the data structure is intrinsically sorted.
+
+The Caesar Cipher is a simple cipher that displaces the position of each character in the alphabet by a constant offset value.
+The plaintext can be obtained by subtracting this offset.
+
+The performance of this programme can be optimized and improved by including symbols, upper case characters as well as spaces.
