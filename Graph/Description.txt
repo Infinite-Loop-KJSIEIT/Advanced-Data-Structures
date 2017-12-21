@@ -1,0 +1,7 @@
+This programme performs DFS on a graph between a given pair of vertices for every possible path (without loops).
+
+In this programme every vertex is represented by a unique integer and a vector is used to store the edges of the graph originiting from each vertex.
+
+A path is invalid if it encounters a loop (checked by the boolean array visited[]) or terminates in a leaf (edge[*I].empty = true).
+
+The programme prints the number of all possible paths within the graph, between the given pair of vertices.
