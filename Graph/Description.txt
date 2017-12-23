@@ -2,7 +2,7 @@ This programme performs DFS on a graph between a given pair of vertices for ever
 
 In this programme every vertex is represented by a unique integer and a vector is used to store the edges of the graph originiting from each vertex.
 
-A path is invalid if it encounters a loop (checked by the boolean array visited[]) or terminates in a leaf (edge[*I].empty = true).
+A path is invalid if it encounters a loop (checked by the boolean array visited[]) or terminates in a leaf (edge[*I].empty returns true).
 
 The input to the programme should be as follows:
 T			-> No. of test cases.
