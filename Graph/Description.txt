@@ -4,4 +4,12 @@ In this programme every vertex is represented by a unique integer and a vector i
 
 A path is invalid if it encounters a loop (checked by the boolean array visited[]) or terminates in a leaf (edge[*I].empty = true).
 
+The input to the programme should be as follows:
+T			-> No. of test cases.
+{
+N E			-> No. of vertices & edges respectively.
+V11 V12 ... VE1 VE2	-> Pair of vertices (represented by unique integers) describing each of the E edges. (Vij < N).
+S D			-> Source and Destination vertices for graph search. (S < N; D < N).
+} xT...
+
 The programme prints the number of all possible paths within the graph, between the given pair of vertices.
