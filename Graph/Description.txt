@@ -8,7 +8,7 @@ The input to the programme should be as follows:
 T			-> No. of test cases.
 {
 N E			-> No. of vertices & edges respectively.
-V11 V12 ... VE1 VE2	-> Pair of vertices (represented by unique integers) describing each of the E edges. (Vij < N).
+V11 V12 ... VE1 VE2	-> Pair of vertices (represented by distinct integers) describing each of the E edges. (Vij < N).
 S D			-> Source and Destination vertices for graph search. (S < N; D < N).
 } xT...
 
