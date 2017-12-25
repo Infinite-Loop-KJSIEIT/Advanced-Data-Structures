@@ -1,0 +1,5 @@
+This programme receives a weighted graph as its input and generates a tree with shortest paths with respect to a user-specified vertex.
+
+In this programme, every vertex is represented by a unique integer and a map is used to store the edges and their weights of the graph originiting from each vertex.
+
+The programme implements the Dijkstra's algorithm to build the tree with shortest paths.
